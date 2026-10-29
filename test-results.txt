@@ -1,0 +1,13 @@
+PASS 988 unique complete questions and ten subjects
+PASS 1000 random exams: exactly 100 unique questions and valid option permutations
+PASS all 24 option permutations for all 988 questions preserve answer mapping
+PASS scores 0/59/60/100, no negative points, exact passing boundary
+PASS wrong and blank answers collected, correct review removes them, history remains
+PASS JSON persistence preserves current question, selection, order, multiple profiles and history
+PASS invalid backup, duplicated question, invalid choice and forged score rejected
+PASS balanced exam: 100 runs with ten questions per subject and passing boundary
+PASS all subjects and original subchapters: scope and shortage without duplication
+PASS all wrong and scoped wrong include only requested stored wrong IDs
+PASS new modes persist, backup validate and history roundtrip; old backups still accepted
+PASS small banks never repeat questions in exam or balanced mode
+12 test groups passed
