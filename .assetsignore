@@ -1,0 +1,13 @@
+.git/
+.wrangler/
+node_modules/
+wrangler.jsonc
+.assetsignore
+server.js
+start.cmd
+extract.py
+test.js
+test-results.txt
+使用說明.txt
+驗證報告.txt
+Cloudflare部署說明.txt
