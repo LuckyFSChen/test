@@ -96,3 +96,6 @@ extraction-report.json / independent-audit.json：解析與交叉核對記錄。
 8. explanations.js為逐題詳解；explanations-report.json列出覆蓋數及已辨認疑義；node test-explanations.cjs可驗證資料完整性、顯示映射及搜尋。
 9. 程式驗證不等於專業人工逐題認證；如有疑義，可由詳解的官方連結及原PDF交叉核對。
 10. Cloudflare仍不需組建命令，部署命令維持npx wrangler deploy。更新時須一併上傳explanations.js、app.js、index.html與style.css，否則詳解無法載入。
+
+九、清空錯題本
+錯題區的「清空錯題本」會在確認後清除目前使用者全部章節的錯題及累積錯誤次數。歷史、未完成測驗與其他使用者資料保留。錯題為空時按鈕停用；之後交卷答錯的題目會再次收錄。
