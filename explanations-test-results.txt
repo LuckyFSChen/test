@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "questions": 988,
+  "bySubject": {
+    "民法": 185,
+    "土地法": 152,
+    "土地稅法": 153,
+    "契稅條例": 30,
+    "房屋稅條例": 39,
+    "公平交易法": 61,
+    "公寓大廈管理條例": 152,
+    "消費者保護法": 92,
+    "不動產經紀業管理條例": 55,
+    "各式契約書範本及不動產說明書應記載及不得記載事項": 69
+  },
+  "caveatCount": 58,
+  "checks": [
+    "Complete coverage and HTTPS sources",
+    "3952 shuffled answer-label render checks",
+    "No in-exam explanation reveal",
+    "Search, subject filter, caveat filter, empty results and paging",
+    "History/progress unchanged when reading",
+    "HTML escaping and unsafe source URL rejection"
+  ]
+}
